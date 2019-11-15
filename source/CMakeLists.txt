@@ -18,7 +18,7 @@ target_link_libraries( vtkPoissonReconstruction
   ${VTK_LIBRARIES}
 )
 
-INSTALL(TARGETS vtkPoissonReconstruction LIBRARY DESTINATION ${LIBRARY_INSTALL_DIR})
+INSTALL(TARGETS vtkPoissonReconstruction ARCHIVE DESTINATION ${LIBRARY_INSTALL_DIR})
 
 FILE(GLOB HEADER_FILES *.h)
 
